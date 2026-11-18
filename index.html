@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fafafc">
+  <title>Apple — O‘zbekiston | Namuna sayt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home" aria-label="Bosh sahifa">
+      <svg viewBox="0 0 24 28" aria-hidden="true"><path fill="currentColor" d="M19.7 14.8c0-3 2.5-4.4 2.6-4.5a5.8 5.8 0 0 0-4.6-2.5c-1.9-.2-3.7 1.1-4.7 1.1-1 0-2.5-1.1-4.1-1.1A6.1 6.1 0 0 0 3.7 11c-2.2 3.8-.6 9.4 1.5 12.5 1 1.5 2.2 3.2 3.8 3.1 1.5-.1 2.1-1 4-1s2.5 1 4.1 1c1.7 0 2.7-1.5 3.7-3.1a14 14 0 0 0 1.7-3.5 5.4 5.4 0 0 1-2.8-5.2ZM16.6 5.8A5.4 5.4 0 0 0 17.9 2a5.6 5.6 0 0 0-3.6 1.9 5.2 5.2 0 0 0-1.3 3.7 4.7 4.7 0 0 0 3.6-1.8Z"/></svg>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#shop">Do‘kon</a><a href="#mac">Mac</a><a href="#ipad">iPad</a>
+      <a href="#iphone">iPhone</a><a href="#watch">Watch</a><a href="#airpods">AirPods</a>
+      <a href="#tv">TV va Uy</a><a href="#accessories">Aksessuarlar</a><a href="#footer">Yordam</a>
+    </nav>
+    <div class="nav-icons">
+      <button id="searchBtn" aria-label="Qidirish">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
+      </button>
+      <a href="#shop" aria-label="Do‘kon"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="7" width="16" height="15" rx="2"/><path d="M8 7V5a4 4 0 0 1 8 0v2"/></svg></a>
+      <button id="menuBtn" class="menu-btn" aria-label="Menyuni ochish" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="search-panel" id="searchPanel">
+    <input id="searchInput" type="search" placeholder="Mahsulot qidirish..." aria-label="Mahsulot qidirish">
+    <button id="closeSearch" aria-label="Qidiruvni yopish">✕</button>
+    <div id="searchResults"></div>
+  </div>
+
+  <main id="home">
+    <section class="hero iphone" id="iphone">
+      <div class="hero-text">
+        <p class="eyebrow">YANGI AVLOD</p><h1>iPhone 16</h1>
+        <p class="subtitle">Yangi imkoniyatlar sari.</p>
+        <div class="buttons"><a class="button" href="https://www.apple.com/uz/iphone/" target="_blank" rel="noopener noreferrer">Ko‘proq bilish</a><a class="text-link" href="#shop">Sotib olish <span>›</span></a></div>
+      </div>
+      <img class="hero-img phone-img" src="https://www.apple.com/ecc-shared/buy/images/products/iphone/iphone_16__f0t224v90y2q_large.png" alt="iPhone 16" fetchpriority="high">
+    </section>
+
+    <section class="hero mac" id="mac">
+      <div class="hero-text"><p class="eyebrow">MacBook Air</p><h2>Yengil. Kuchli.<br>Mavjud.</h2>
+        <div class="buttons"><a class="button" href="https://www.apple.com/macbook-air/" target="_blank" rel="noopener noreferrer">Ko‘proq bilish</a><a class="text-link" href="#shop">Sotib olish <span>›</span></a></div>
+      </div>
+      <img class="hero-img laptop-img" src="https://www.apple.com/ecc-shared/buy/images/products/mac/product_tile_mba_13_15__fx2g3qlubdym_large.png" alt="MacBook Air" loading="lazy">
+    </section>
+
+    <section class="hero ipad" id="ipad">
+      <div class="hero-text"><p class="eyebrow">iPad Air</p><h2>Barchasiga ulanish.<br>Yangi usullar bilan.</h2>
+        <div class="buttons"><a class="button" href="https://www.apple.com/ipad/" target="_blank" rel="noopener noreferrer">Ko‘proq bilish</a><a class="text-link" href="#shop">Sotib olish <span>›</span></a></div>
+      </div>
+      <img class="hero-img tablet-img" src="https://www.apple.com/ecc-shared/buy/images/products/ipad/pt_ipad_air__cr381zljqdiu_xlarge.png" alt="iPad Air" loading="lazy">
+    </section>
+
+    <section class="small-grid" id="shop">
+      <article class="small-card watch-card" id="watch"><div class="small-text"><p class="eyebrow">Apple Watch</p><h3>Sog‘liq. Faollik.<br>Uslub.</h3><a class="text-link" href="https://www.apple.com/watch/" target="_blank" rel="noopener noreferrer">Ko‘proq bilish <span>›</span></a></div>
+        <img src="https://www.apple.com/ecc-shared/buy/images/products/watch/product_s11__cpcpcg6u1aaa_xlarge.png" alt="Apple Watch Series 11" loading="lazy"></article>
+      <article class="small-card airpods-card" id="airpods"><div class="small-text"><p class="eyebrow">AirPods Pro</p><h3>Hamma joyda<br>siz bilan.</h3><a class="text-link" href="https://www.apple.com/airpods/" target="_blank" rel="noopener noreferrer">Ko‘proq bilish <span>›</span></a></div>
+        <img src="https://www.apple.com/ecc-shared/buy/images/products/airpods/compare_airpods_pro_3__cilsoc5c1g76_large.png" alt="AirPods Pro" loading="lazy"></article>
+      <article class="small-card pro-card" id="accessories"><div class="small-text"><p class="eyebrow">iPhone 17 Pro</p><h3>Yuqori darajadagi<br>ijro.</h3><a class="text-link" href="https://www.apple.com/iphone/" target="_blank" rel="noopener noreferrer">Ko‘proq bilish <span>›</span></a></div>
+        <img src="https://www.apple.com/ecc-shared/buy/images/products/iphone/iphone_16__f0t224v90y2q_large.png" alt="iPhone" loading="lazy"></article>
+    </section>
+
+    <section class="extra-banner" id="tv"><p class="eyebrow">APPLE DUNYOSI</p><h2>Texnologiya — yangi imkoniyatlar.</h2><p>O‘zingizga mos qurilmani kashf eting.</p><a class="button" href="#shop">Kashf etish</a></section>
+  </main>
+
+  <footer id="footer">
+    <p class="footer-note">Mustaqil o‘quv loyihasi. Apple Inc. bilan bog‘liq yoki uning rasmiy sayti emas.</p>
+    <div class="footer-columns">
+      <div><strong>Do‘kon</strong><a href="#iphone">iPhone</a><a href="#mac">Mac</a><a href="#ipad">iPad</a></div>
+      <div><strong>Xizmatlar</strong><a href="#shop">Apple Music</a><a href="#shop">Apple TV+</a><a href="#shop">Apple Arcade</a></div>
+      <div><strong>Yordam</strong><a href="#footer">Qurilmani sozlash</a><a href="#footer">Hisob</a><a href="#footer">Qo‘llab-quvvatlash</a></div>
+      <div><strong>Ma’lumot</strong><a href="#footer">Yangiliklar</a><a href="#footer">Apple haqida</a><a href="https://www.apple.com/uz/" target="_blank" rel="noopener noreferrer">Rasmiy sayt</a></div>
+    </div>
+    <p class="copyright">© 2026. Shaxsiy o‘quv loyihasi.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
